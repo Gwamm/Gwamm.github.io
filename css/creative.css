@@ -82,7 +82,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #212529;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -105,7 +105,7 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #fff;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -304,7 +304,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #FF6BEC !important;
+  background-color: #FF1FBC !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -312,4 +312,7 @@ header.masthead p {
 }
 .top-buffer { 
   margin-top:200px; 
+}
+.top-buffer-small{
+		margin-top: 20px;
 }
