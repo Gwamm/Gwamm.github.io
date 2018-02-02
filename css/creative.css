@@ -313,13 +313,23 @@ header.masthead p {
 .top-buffer { 
   margin-top:200px; 
 }
+
 .top-buffer-small{
 		margin-top: 20px;
 }
+
 .top-buffer-med{
-		margin-top: 50px;
+		margin-top: 80px;
 }
 .dark-buffer{
 		margin-top: 50px;
 		background-color: rgba(255, 132, 239, 0.9);
+}
+
+.big-font{
+	font-size: 22px;
+}
+
+.bigger-font{
+	font-size: 45px;
 }
