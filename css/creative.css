@@ -316,3 +316,10 @@ header.masthead p {
 .top-buffer-small{
 		margin-top: 20px;
 }
+.top-buffer-med{
+		margin-top: 50px;
+}
+.dark-buffer{
+		margin-top: 50px;
+		background-color: rgba(255, 132, 239, 0.9);
+}
