@@ -346,7 +346,7 @@ header.masthead p {
 
 
 #wrapper{
-	position: relative;
+	position: absolute;
 	height:100%;
 }
 
