@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -341,4 +341,36 @@ header.masthead p {
 .row {
   padding-right: 0px;
   margin-right: 0px;
+}
+
+.banner {
+	position: absolute;
+	z-index: 1;
+	transform:translateY(0%) translateX(110%);
+}
+
+.bannerYT {
+	position: absolute;
+	z-index: 2;
+	transform:translateY(-250%) translateX(205%);
+}
+
+
+.bannerTWT {
+	position: absolute;
+	z-index: 2;
+	transform:translateY(-255%) translateX(120%);
+
+}
+
+.bannerFB {
+	position: absolute;
+	z-index: 2;
+	transform:translateY(-245%) translateX(450%);
+}
+
+.bannerEmail {
+	position: absolute;
+	z-index: 2;
+	transform:translateY(-190%) translateX(20%);
 }
