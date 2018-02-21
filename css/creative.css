@@ -343,34 +343,54 @@ header.masthead p {
   margin-right: 0px;
 }
 
-.banner {
-	position: absolute;
+
+
+#wrapper{
+	position: relative;
+	height:100%;
+}
+
+#banner{
+	position:absolute;
 	z-index: 1;
-	transform:translateY(0%) translateX(110%);
+	transform: translateY(-50%) translateX(-50%);
 }
 
-.bannerYT {
-	position: absolute;
+#iconYT{
+	position:absolute;
 	z-index: 2;
-	transform:translateY(-250%) translateX(205%);
+	transform: translateY(-50%) translateX(-55%);
 }
 
-
-.bannerTWT {
-	position: absolute;
+#iconTWT{
+	position:absolute;
 	z-index: 2;
-	transform:translateY(-255%) translateX(120%);
+	transform: translateY(-50%) translateX(-225%);
 
 }
 
-.bannerFB {
-	position: absolute;
+#iconFB{
+	position:absolute;
 	z-index: 2;
-	transform:translateY(-245%) translateX(450%);
+	transform: translateY(-50%) translateX(115%);
+
+	}
+
+#iconEmail{
+	position:absolute;
+	z-index: 2;
+	transform: translateY(100%) translateX(-50%);
+
 }
 
-.bannerEmail {
-	position: absolute;
+#iconPK{
+	position:absolute;
 	z-index: 2;
-	transform:translateY(-190%) translateX(20%);
+	transform: translateY(275%) translateX(-50%);
+}
+
+#iconLM{
+	position:absolute;
+	z-index: 2;
+	transform: translateY(300%) translateX(-50%);
 }
