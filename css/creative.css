@@ -356,6 +356,10 @@ header.masthead p {
 	position: absolute;
 	height:100%;
 }
+#wrapper2{
+	position: absolute;
+	height:100%;
+}
 
 #banner{
 	position:absolute;
@@ -400,4 +404,9 @@ header.masthead p {
 	position:absolute;
 	z-index: 2;
 	transform: translateY(300%) translateX(-50%);
+}
+#iconSTM{
+	position:absolute;
+	z-index: 2;
+	transform: translateY(35%) translateX(-45%);
 }
